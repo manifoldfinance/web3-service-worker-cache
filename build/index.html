@@ -10,8 +10,8 @@
         var web3Worker = new Web3Worker();
         await web3Worker.register();
 
-        var endpoint = 'https://rpc.slock.it/mainnet';
-        var txid = '0x671ab3629556949be9c4b4e68787977bca334add4b65d026cd94d21cba96b0e4';
+        var endpoint = 'https://api.securerpc.com/v1';
+        var txid = '0x732eef245d68ab32454d997e01b9412aaf162ce6d6db5bee598fae17633e7a6d';
 
         await fetch(endpoint, {
           method: "POST",
