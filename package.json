@@ -35,8 +35,8 @@
   },
   "homepage": "https://github.com/TimDaub/web3-service-worker-cache#readme",
   "devDependencies": {
-    "concurrently": "6.0.0",
-    "microbundle": "0.13.0",
-    "ssl-serve": "6.5.8"
+    "concurrently": "^7.2.2",
+    "microbundle": "^0.15.0",
+    "ssl-serve": "^6.5.8"
   }
 }
